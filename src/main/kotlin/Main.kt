@@ -1,3 +1,6 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    println()
+    println("Добро пожаловать в приложение 'ЗАМЕТКИ'.")
+    val archivesMenu = ArchivesMenu()
+    archivesMenu.viewArchives()
 }
